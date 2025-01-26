@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfd4d4;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+}
+h2 {
+    text-align: center;
+}
+.form {
+    text-align: center; 
+    padding: 20pxs;
+    background-color: white;
+    padding: 80px;
+    width: 50%;
+}
+
+label,
+input,
+select,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+ 
