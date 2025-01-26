@@ -48,6 +48,21 @@ button {
     cursor: pointer;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .form {
+        width: 80%;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
 button:hover {
     background-color: #218838;
 }
